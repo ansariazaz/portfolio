@@ -1,9 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
+
+
 function Contact() {
   return (
-    <div className="contact-form">
+    <div>
+      
+      <div className="contact-form">
       <div className="form">
         <div className="name">
           <label>
@@ -25,6 +29,7 @@ function Contact() {
           <p>Thank you for your message, we will be in touch in no time!</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

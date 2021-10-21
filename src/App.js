@@ -4,12 +4,16 @@ import Projectdetail from "./Components/Projectdetail";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
+
       <Router>
+      <Navbar/>
         <Switch>
+         
           <Route path="/" component={Home} exact></Route>
           <Route path="/Projectdetail" exact component={Projectdetail}></Route>
           <Route path="/Projects" exact component={Projects}></Route>

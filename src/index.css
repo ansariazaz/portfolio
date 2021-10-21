@@ -39,14 +39,24 @@ justify-content: center;
 
 }
 .intro h1{
-    font-size: 50px;
+    font-size: 80px;
     margin-bottom: 0px;
     width: 350px;
+}
+.intro h2{
+    width: 350px;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.intro h3{
+    width: 350px;
+    margin-top: 0px; 
 }
 .intro p{
     margin-top: 0px;
     font-size: 20px;
     width: 350px;
+    margin-top: 0px;
 }
 .gif{
     flex-basis: 100%;    
@@ -61,8 +71,13 @@ justify-content: center;
     width: 100%;
 }
 .project{
-    width: 350px;
+    max-width: 350px;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.397);
     
 }
 .project h2{
@@ -74,10 +89,10 @@ justify-content: center;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     column-gap: 40px;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 .img3{
-    width: 350px;
+    width: 100%;
 }
 .detail{
     font-size: 16px;
@@ -133,7 +148,7 @@ justify-content: center;
     padding: 20px;
 }
 .about{
-    max-width: 1200px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -142,12 +157,12 @@ justify-content: center;
 }
 .about-section{
     display: flex;
-    column-gap: 20px;
+    column-gap: 40px;
     align-items: center;
-    text-align: center;
 }
 .profile-image{
-    flex-basis: 40%;
+    flex-basis: 20%;
+  
 }
 .about-profile{
     flex-basis: 80%;
@@ -166,6 +181,12 @@ justify-content: center;
 }
 .pic{
     width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(26, 21, 21, 0.356);
+}
+.social-media{
+    margin-top: 50px;
 }
 .icon{
     width: 40px;

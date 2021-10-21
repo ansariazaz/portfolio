@@ -9,9 +9,12 @@ import {Link} from 'react-router-dom';
 import resume from '../resume/resume.pdf';
 
 
+
 function About() {
   return (
-    <div className="about">
+   <div>
+     
+      <div className="about">
       <div className="about-section">
         <div className="profile-image">
           <img src={profile} className="pic" />
@@ -42,6 +45,7 @@ function About() {
        <a href="https://github.com/ansariazaz"><img src={img5} className="icon"/></a> 
       </div>
     </div>
+   </div>
   );
 }
 

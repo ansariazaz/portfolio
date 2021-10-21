@@ -1,17 +1,15 @@
 import React from "react";
-import Navbar from "./Navbar";
 import gif from '../images/eat.gif'
 import Projects from "./Projects";
 
 function Home() {
   return (
     <div>
-      <Navbar />
       <div className="container">
         <div className="intro">
           <h1> Hello!</h1>
-          <h1> I am Azaz.</h1>
-          <p>front-end developer.</p>
+          <h2> I am Azaz.</h2>
+          <h3>front-end developer.</h3>
           <p>I build interactive websites that run across platforms and devices</p>
         </div>
         <div className="gif">
