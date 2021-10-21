@@ -84,3 +84,142 @@ justify-content: center;
     padding: 4px 16px;
     cursor: pointer;
 }
+.proj-det{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 40px;
+}
+.proj-det a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px 16px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.project a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px 16px;
+    background-color: black;
+    color: white;
+    font-size: 16px; 
+}
+.project a:hover{
+    background-color: rgba(0, 0, 0, 0.664);
+    letter-spacing: 2px;
+}
+.proj-det a:hover{
+    background-color: rgba(0, 0, 0, 0.664);
+    letter-spacing: 2px;
+}
+.detail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.image{
+    flex-basis: 100%;
+    padding: 20px;
+}
+.det-img{
+      width: 100%;
+}
+.description{
+    flex-basis: 100%;
+    padding: 20px;
+}
+.about{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.about-section{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.profile-image{
+    flex-basis: 40%;
+}
+.about-profile{
+    flex-basis: 80%;
+}
+.about-profile a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px 16px;
+    background-color: black;
+    color: white;
+    font-size: 16px; 
+}
+.about-profile a:hover{
+    background-color: rgba(0, 0, 0, 0.664);
+    letter-spacing: 2px;
+}
+.pic{
+    width: 100%;
+}
+.icon{
+    width: 40px;
+    margin-right: 20px;
+}
+.contact-form{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.name,.email,.message{
+    margin-top: 24px;
+    font-size: 28px;
+    width: 100%;
+}
+.form{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(black,transparent) ;
+    height: auto;
+    padding: 100px 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thanks-msg{
+    text-align: center;
+}
+input{
+   
+    padding: 6px 12px;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.thanks-msg{
+    margin-top: 20px;
+    text-align: center;
+}
+.thanks-msg p{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}

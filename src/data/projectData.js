@@ -16,6 +16,7 @@ const projectData = [
     description: "This is my first project.I made this project from a website called frontend master",
     skills: ["HTML", "CSS", "Javascript"],
     images:img1,
+    link:"https://ansariazaz.github.io/ableton/",
   },
   {
     id: "startbuck",
@@ -23,6 +24,7 @@ const projectData = [
     description: "This is my second project.I made this project from a website called frontend master",
     skills: ["HTML", "CSS", "Javascript"],
     images:img2,
+    link:"https://ansariazaz.github.io/starbuck/",
   },
   {
     id: "canalstreet",
@@ -30,6 +32,7 @@ const projectData = [
     description: "This is my third project.I made this project from a website called frontend master",
     skills: ["HTML", "CSS", "Javascript"],
     images:img6,
+    link:"https://ansariazaz.github.io/canalstreet/",
   },
   {
     id: "qrates",
@@ -37,6 +40,7 @@ const projectData = [
     description: "This is my fourth project.I made this project from a website called frontend master",
     skills: ["HTML", "CSS", "Javascript"],
     images:img4,
+    link:"https://ansariazaz.github.io/qrates/",
   },
   {
     id: "monstercat",
@@ -44,6 +48,7 @@ const projectData = [
     description: "This is my fifth project.I made this project from a website called frontend master",
     skills: ["HTML", "CSS", "Javascript"],
     images:img5,
+    link:"https://ansariazaz.github.io/monstercat/",
   },
   {
     id: "letterflix",
@@ -51,6 +56,7 @@ const projectData = [
     description: "This is my sixth project.I made the landing page of letterflix while doing internship",
     skills: ["HTML", "CSS", "Javascript"],
     images:img3,
+    link:"https://ansariazaz.github.io/letterflix/",
   },
   {
     id: "startuplanes",
@@ -58,6 +64,7 @@ const projectData = [
     description: "This is my seventh project.I made this project while for a client",
     skills: ["HTML", "CSS", "Javascript"],
     images:img7,
+    link:"https://startuplanes.netlify.app/",
   },
 ];
 
