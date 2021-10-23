@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Projectdetail from "./Components/Projectdetail";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
-import Contact from "./Components/Contact";
+import ContactForm from "./Components/ContactForm";
 import Navbar from "./Components/Navbar";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path="/Projectdetail" exact component={Projectdetail}></Route>
           <Route path="/Projects" exact component={Projects}></Route>
           <Route path="/About" component={About}></Route>
-          <Route path="/Contact" component={Contact}></Route>
+          <Route path="/ContactForm" component={ContactForm}></Route>
           <Route path="/projects/:id"  component={Projectdetail}></Route>
         </Switch>
       </Router>

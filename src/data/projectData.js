@@ -62,7 +62,7 @@ const projectData = [
     id: "startuplanes",
     title: "Startuplanes",
     description: "This is my seventh project.I made this project while for a client",
-    skills: ["HTML", "CSS", "Javascript"],
+    skills: ["HTML", "CSS", "Javascript","Reactjs"],
     images:img7,
     link:"https://startuplanes.netlify.app/",
   },

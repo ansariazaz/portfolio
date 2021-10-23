@@ -8,6 +8,7 @@ background-color: black;
 display: flex;
 align-items: center;
 padding: 8px;
+box-sizing: border-box;
  
 }
 .navbar a{
@@ -18,9 +19,10 @@ padding: 8px;
     margin-left: 20px;
 }
 .navbar a:hover{
-    color: rgb(238, 229, 212);
+    color: rgb(240, 159, 10);
     letter-spacing: 2px;
     font-size: 28px;
+    text-decoration: line-through;
 }
 .container{
     display: flex;
@@ -29,6 +31,8 @@ padding: 8px;
     margin-left: auto;
     width: 100%;
     margin-top: 40px;
+    box-sizing: border-box;
+    
 }
 .intro{
 flex-basis: 100%;
@@ -36,6 +40,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+box-sizing: border-box;
+
 
 }
 .intro h1{
@@ -59,7 +65,8 @@ justify-content: center;
     margin-top: 0px;
 }
 .gif{
-    flex-basis: 100%;    
+    flex-basis: 100%; 
+    box-sizing: border-box;   
 }
 .eat{
     width: 100%;
@@ -69,19 +76,21 @@ justify-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
 }
 .project{
     max-width: 350px;
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 16px;
+    padding: 20px;
     box-sizing: border-box;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.397);
-    
+    box-sizing: border-box;
 }
 .project h2{
-    margin-top: 0px;
+   
     margin-bottom: 0px;
   
 }
@@ -90,6 +99,7 @@ justify-content: center;
     grid-template-columns: 30% 30% 30%;
     column-gap: 40px;
     row-gap: 40px;
+    box-sizing: border-box;
 }
 .img3{
     width: 100%;
@@ -120,7 +130,8 @@ justify-content: center;
     padding: 6px 16px;
     background-color: black;
     color: white;
-    font-size: 16px; 
+    font-size: 16px;
+    margin-top: 10px;
 }
 .project a:hover{
     background-color: rgba(0, 0, 0, 0.664);
@@ -192,55 +203,113 @@ justify-content: center;
     width: 40px;
     margin-right: 20px;
 }
-.contact-form{
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    margin-top: 40px;
-    
-}
-.name,.email,.message{
-    margin-top: 24px;
-    font-size: 28px;
-    width: 100%;
-}
+
+
 .form{
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-image:linear-gradient(black,transparent) ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.849),transparent) ;
     height: auto;
     padding: 100px 30px;
     border-radius: 10px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.thanks-msg{
-    text-align: center;
+    margin-top: 40px;
 }
 input{
-   
     padding: 6px 12px;
     font-size: 20px;
     width: 100%;
     box-sizing: border-box;
+    margin-top: 20px;
+    outline: none;
 }
 textarea{
     width: 100%;
-    height: 150px;
+    height: 180px;
     font-size: 20px;
     box-sizing: border-box;
-}
-.thanks-msg{
+    padding: 6px 12px;
     margin-top: 20px;
-    text-align: center;
+    outline: none;
 }
-.thanks-msg p{
+
+.message{
     margin-top: 40px;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+}
+.btn{
+    border-radius: 10px;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px; 
+    border: 0px; 
+    margin-top: 24px;  
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.664);
+    letter-spacing: 2px; 
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media screen  and (max-width:600px) and (min-width:320px){
+  .container{
+      flex-direction: column;
+     
+      box-sizing: border-box;
+  }
+  .intro{
+      text-align: center;
+  }
+  .intro p{
+      width: 250px;
+  }
+  .gif{
+      padding: 12px;
+     margin-top: 40px;
+      box-sizing: border-box;
+  }
+  .navbar a{
+      font-size: 16px;
+      margin-left: 12px;
+  }
+  .navbar a:hover{
+  font-size: 20px;
+  }
+    .project-wrap{
+        column-gap: 20px;
+        row-gap: 20px; 
+        grid-template-columns: 100%;
+        align-items: center;
+        text-align: center;
+    }
+   .project{
+    margin-left: auto;
+    margin-right: auto;  
+   }
+   .about-section{
+       flex-direction: column;
+   }
+   .about{
+       padding: 12px;
+       box-sizing: border-box;
+   }
+   .container3{
+       padding: 12px;
+   }
+
+}
+@media  all and (max-width:800px) and (min-width:601px){
+    .project-wrap{
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+        row-gap: 10px; 
+    }
 }
