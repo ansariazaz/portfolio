@@ -304,6 +304,19 @@ textarea{
    .container3{
        padding: 12px;
    }
+   .detail-container{
+       flex-direction: column;
+   }
+   .proj-det{
+       padding: 12px;
+       box-sizing: border-box;
+   }
+   .image{
+       box-sizing: border-box;
+   }
+   .description a:hover{
+       letter-spacing:1px;
+   }
 
 }
 @media  all and (max-width:800px) and (min-width:601px){
