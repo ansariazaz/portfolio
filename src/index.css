@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Kanit', sans-serif;
 }
 .navbar{
 width: 100%;
@@ -247,7 +248,8 @@ textarea{
     color: white;
     font-size: 16px; 
     border: 0px; 
-    margin-top: 24px;  
+    margin-top: 24px;
+    cursor: pointer; 
 }
 .btn:hover{
     background-color: rgba(0, 0, 0, 0.664);

@@ -5,6 +5,7 @@ import img4 from '../images/img4.png'
 import img5 from '../images/img5.png'
 import img6 from '../images/img6.png'
 import img7 from '../images/img7.png'
+import img8 from '../images/img8.png'
 
 
 
@@ -65,6 +66,14 @@ const projectData = [
     skills: ["HTML", "CSS", "Javascript","Reactjs"],
     images:img7,
     link:"https://startuplanes.netlify.app/",
+  },
+  {
+    id: "Bookticket",
+    title: "Bookticket",
+    description: "This is my eight project.I made this project while for a client",
+    skills: ["HTML", "CSS", "Javascript","Reactjs"],
+    images:img8,
+    link:"https://bookticket.netlify.app/",
   },
 ];
 
