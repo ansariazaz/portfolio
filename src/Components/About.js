@@ -33,7 +33,7 @@ function About() {
             You can read more about my biography, experience, skills, education
             and much more in the PDF attached below:
           </p>
-          <Link to={resume} target="_blank"download>Resume(86 kb)</Link>
+          <Link to={resume} target="_blank"download>Resume(55 kb)</Link>
         </div>
       </div>
       <div className="social-media">

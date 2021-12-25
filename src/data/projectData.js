@@ -6,6 +6,10 @@ import img5 from '../images/img5.png'
 import img6 from '../images/img6.png'
 import img7 from '../images/img7.png'
 import img8 from '../images/img8.png'
+import img9 from '../images/todo.png'
+import img10 from '../images/buzzz.png'
+
+
 
 
 
@@ -62,7 +66,7 @@ const projectData = [
   {
     id: "startuplanes",
     title: "Startuplanes",
-    description: "This is my seventh project.I made this project while for a client",
+    description: "This is my seventh project.I made this project with the help of Reactjs ",
     skills: ["HTML", "CSS", "Javascript","Reactjs"],
     images:img7,
     link:"https://startuplanes.netlify.app/",
@@ -70,10 +74,26 @@ const projectData = [
   {
     id: "Bookticket",
     title: "Bookticket",
-    description: "This is my eight project.I made this project while for a client",
+    description: "This is my eight project.I made this project with the help of Reactjs",
     skills: ["HTML", "CSS", "Javascript","Reactjs"],
     images:img8,
     link:"https://bookticket.netlify.app/",
+  },
+  {
+    id: "To do",
+    title: "To do",
+    description: "This is my Ninth project.I made this project with the help of Reactjs",
+    skills: ["HTML", "CSS", "Javascript","Reactjs"],
+    images:img9,
+    link:"https://azaztodolist.netlify.app/",
+  },
+  {
+    id: "Buzzzz",
+    title: "Buzzzz",
+    description: "This is my eight project.I made this project with the help of Reactjs, Redux",
+    skills: ["HTML", "CSS", "Javascript","Reactjs","Redux"],
+    images:img10,
+    link:"https://buzzzzz.netlify.app/",
   },
 ];
 
