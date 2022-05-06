@@ -8,6 +8,8 @@ import img7 from '../images/img7.png'
 import img8 from '../images/img8.png'
 import img9 from '../images/todo.png'
 import img10 from '../images/buzzz.png'
+import img11 from '../images/xpense.png'
+import img12 from '../images/crypto.png'
 
 
 
@@ -90,10 +92,26 @@ const projectData = [
   {
     id: "Buzzzz",
     title: "Buzzzz",
-    description: "This is my eight project.I made this project with the help of Reactjs, Redux",
+    description: "This is my tenth project.I made this project with the help of Reactjs, Redux",
     skills: ["HTML", "CSS", "Javascript","Reactjs","Redux"],
     images:img10,
     link:"https://buzzzzz.netlify.app/",
+  },
+  {
+    id: "Xpense tracker",
+    title: "Xpense tracker",
+    description: "I made this project with the help of Reactjs and Redux",
+    skills: ["HTML", "CSS", "Javascript","Reactjs","Redux"],
+    images:img11,
+    link:"https://xpense-track.netlify.app/",
+  },
+  {
+    id: "Cryptoverse",
+    title: "Cryptoverse",
+    description: "I made this project with the help of Reactjs, Redux and Ant-design",
+    skills: ["HTML", "CSS", "Javascript","Reactjs","Redux","Ant-design"],
+    images:img12,
+    link:"https://cryptoverssee.netlify.app/",
   },
 ];
 
