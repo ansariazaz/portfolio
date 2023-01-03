@@ -5,7 +5,7 @@ import projectData from "../data/projectData";
 function Projectdetail() {
   let { id } = useParams();
   const data = projectData.filter((f) => {
-    return f.id == id;
+    return f.id === id;
   });
   console.log(data);
   return (
@@ -13,7 +13,7 @@ function Projectdetail() {
       <Link to="/">Back</Link>
       <div className="detail-container">
         <div className="image">
-          <img src={data[0].images}  className="det-img"/>
+          <img src={data[0].images} alt="det-img" className="det-img"/>
         </div>
         <div className="description">
             <h1>{data[0].title}</h1>

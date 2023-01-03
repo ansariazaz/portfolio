@@ -10,6 +10,7 @@ import img9 from '../images/todo.png'
 import img10 from '../images/buzzz.png'
 import img11 from '../images/xpense.png'
 import img12 from '../images/crypto.png'
+import img13 from '../images/City.png'
 
 
 
@@ -112,6 +113,14 @@ const projectData = [
     skills: ["HTML", "CSS", "Javascript","Reactjs","Redux","Ant-design"],
     images:img12,
     link:"https://cryptoverssee.netlify.app/",
+  },
+  {
+    id: "City Shop",
+    title: "City Shop",
+    description: "I made this project with the help of Reactjs, Redux ",
+    skills: ["HTML", "CSS", "Javascript","Reactjs","Redux"],
+    images:img13,
+    link:"https://cityshopp.netlify.app/",
   },
 ];
 

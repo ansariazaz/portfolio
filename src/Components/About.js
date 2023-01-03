@@ -17,7 +17,7 @@ function About() {
       <div className="about">
       <div className="about-section">
         <div className="profile-image">
-          <img src={profile} className="pic" />
+          <img src={profile} alt="pic" className="pic" />
         </div>
         <div className="about-profile">
           <h1>Azaz Ansari</h1>
@@ -38,11 +38,11 @@ function About() {
       </div>
       <div className="social-media">
        <h1>Get in Touch!</h1>
-       <a href="https://www.facebook.com/azaz.ansari.39/"><img src={img1} className="icon"/></a> 
-       <a href="https://www.instagram.com/azazansari007/"><img src={img2} className="icon"/></a>
-       <a href="https://twitter.com/AzazAnsari007"><img src={img3} className="icon"/></a>
-       <a href="https://www.linkedin.com/in/azaz-ansari-a006b420a/"><img src={img4} className="icon"/></a>
-       <a href="https://github.com/ansariazaz"><img src={img5} className="icon"/></a> 
+       <a href="https://www.facebook.com/azaz.ansari.39/"><img src={img1} alt="icon"  className="icon"/></a> 
+       <a href="https://www.instagram.com/azazansari007/"><img src={img2}  alt="icon"className="icon"/></a>
+       <a href="https://twitter.com/AzazAnsari007"><img src={img3} alt="icon" className="icon"/></a>
+       <a href="https://www.linkedin.com/in/azaz-ansari-a006b420a/"><img src={img4} alt="icon" className="icon"/></a>
+       <a href="https://github.com/ansariazaz"><img src={img5} alt="icon" className="icon"/></a> 
       </div>
     </div>
    </div>
