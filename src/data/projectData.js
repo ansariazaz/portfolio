@@ -11,6 +11,10 @@ import img10 from '../images/buzzz.png'
 import img11 from '../images/xpense.png'
 import img12 from '../images/crypto.png'
 import img13 from '../images/City.png'
+import img14 from '../images/kirana.png'
+import img15 from '../images/password.png'
+import img16 from '../images/healthcare.png'
+
 
 
 
@@ -121,6 +125,30 @@ const projectData = [
     skills: ["HTML", "CSS", "Javascript","Reactjs","Redux"],
     images:img13,
     link:"https://cityshopp.netlify.app/",
+  },
+  {
+    id: "Kirana",
+    title: "Kirana Shop",
+    description: "I made this project with the help of Reactjs ",
+    skills: ["HTML", "CSS", "Javascript","Reactjs"],
+    images:img14,
+    link:"https://kiraana.netlify.app/",
+  },
+  {
+    id: "Random Password Generator",
+    title: "Random Password Generator",
+    description: "I made this project with the help of Reactjs ",
+    skills: ["HTML", "CSS", "Javascript","Reactjs"],
+    images:img15,
+    link:"https://password-generator-in.netlify.app/",
+  },
+  {
+    id: "HealthCare",
+    title: "HealthCare",
+    description: "I made this project with the help of NextJs, Tailwind Css, Appwrite, Shadcn/ui",
+    skills: ["HTML", "CSS", "Javascript","NextJs","Tailwind Css","Appwrite","Shadcn/ui"],
+    images:img16,
+    link:"https://health-care-cln0gmveg-ansariazazs-projects.vercel.app/",
   },
 ];
 
